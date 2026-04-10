@@ -1,0 +1,18 @@
+{
+  "build": {
+    "my-app": { 
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "my-app2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "my-app3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
