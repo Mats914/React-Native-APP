@@ -34,5 +34,7 @@ ios/*.xcworkspace
 # Android local config
 android/local.properties
 
+!.env.example
+.env
 # Cache
 .cache/
